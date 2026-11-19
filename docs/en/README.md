@@ -24,33 +24,26 @@ What changed in each version is in [`docs/releases/`](../releases/).
 
 ## The essentials
 
-Three things the app exists for; everything else builds on them.
+> [!IMPORTANT]
+> **Player marks — `BAD` and 1–10. The flagship.** Your own rating of a player
+> stands on every card **before Kisk answers**: a known `BAD` is visible at
+> once, and so is a strong player. It takes one click in the character window,
+> survives restarts and is collected on the Players page.
+> [What it looks like →](#marks-bad-and-110)
 
-### Player marks — BAD and 1–10
+> [!TIP]
+> **The whole application queue at once.** The game shows applications one at a
+> time — here they are all in arrival order, with the time left to answer and
+> the applicant's server read out of the record itself. Accepting and declining
+> still happens in the game.
+> [Screenshot and details →](#applications-the-whole-queue-at-once)
 
-This is the flagship. Everyone who matters to you gets **your own mark**: `BAD`
-in red, or 1–10, where 9 is highlighted and 10 shimmers. The mark is set in the
-character window with one click and stands on the card **before Kisk answers**:
-a known `BAD` is visible at once, and so is a strong player, so the decision is
-never made blind. Marks survive restarts, are collected on the Players page and
-refreshed with one button.
-
-### The whole application queue at once
-
-The game shows applications one at a time; here **the whole queue** is visible —
-in arrival order, with the time left to answer and the applicant's server read
-out of the record itself. You can see whom to take first without paging through
-the game's cards. Accepting and declining still happens in the game: the app
-only shows, it never answers for you.
-
-### Gear score, combat power and class from Kisk — before you press Accept
-
-Every card carries **combat power**, **gear score**, the class with its badge
-and colour, the age of the profile and the state of the Kisk request. The
-profile is fetched from [Kisk](https://kisk.app) automatically by the
-applicant's server, cached for 24 hours and refreshed by itself when it goes
-stale — through the one shared queue, at most once every 2.5 s. What Kisk did
-not say stays empty: the app invents nothing.
+> [!NOTE]
+> **Gear score, combat power and class from Kisk — before you press Accept.**
+> The profile is fetched automatically by the applicant's server, cached for 24
+> hours and refreshed by itself when it goes stale. What Kisk did not say stays
+> empty.
+> [A player's card →](#your-character-party-and-applications--by-themselves)
 
 ## What it does
 
