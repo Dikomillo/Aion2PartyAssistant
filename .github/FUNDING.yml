@@ -1,0 +1,3 @@
+# The Sponsor button's links. GitHub lists its own platforms by name and takes
+# anything else through `custom` — Boosty is one of those, up to four URLs.
+custom: ["https://boosty.to/dikomillo"]
