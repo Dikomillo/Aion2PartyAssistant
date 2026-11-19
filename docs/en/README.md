@@ -1,6 +1,39 @@
 # AION 2 Party Assistant
 
-**Русская версия:** [../../README.md](../../README.md).
+**Русская версия:** [../../README.md](../../README.md)
+
+[![Download](https://img.shields.io/badge/Download-Releases-2ea44f?style=for-the-badge)](https://github.com/Dikomillo/Aion2PartyAssistant/releases/latest)
+[![Boosty](https://img.shields.io/badge/Boosty-Support_the_project-FF8A00?style=for-the-badge)](https://boosty.to/dikomillo)
+
+## The essentials
+
+> [!IMPORTANT]
+> ### Player marks — `BAD` and 1–10. The flagship
+>
+> Your own rating of a player stands on every card **before Kisk answers**: a
+> known `BAD` is visible at once, and so is a strong player. It takes one click
+> in the character window, survives restarts and is collected on the Players
+> page.
+>
+> [What it looks like →](#marks-bad-and-110)
+
+> [!TIP]
+> ### The whole application queue at once
+>
+> The game shows applications one at a time; here they are all in arrival order,
+> with the time left to answer and the applicant's server read out of the record
+> itself. Accepting and declining still happens in the game.
+>
+> [Screenshot and details →](#applications-the-whole-queue-at-once)
+
+> [!NOTE]
+> ### Gear score, combat power and class from Kisk — on the card, before Accept
+>
+> The profile is fetched automatically by the applicant's server, cached for 24
+> hours and refreshed by itself when it goes stale. What Kisk did not say stays
+> empty.
+>
+> [A player's card →](#your-character-party-and-applications--by-themselves)
 
 A party-finder helper for **AION 2** (Windows, global EU/NA servers). The app
 watches the fight that is already going on through the game's own eyes: it
@@ -19,31 +52,7 @@ the operating system has already received.
 > The screenshots show demonstration data from the preview mode. Real players'
 > nicknames are not published in the documentation.
 
-**Download:** [Releases](https://github.com/Dikomillo/Aion2PartyAssistant/releases/latest).
 What changed in each version is in [`docs/releases/`](../releases/).
-
-## The essentials
-
-> [!IMPORTANT]
-> **Player marks — `BAD` and 1–10. The flagship.** Your own rating of a player
-> stands on every card **before Kisk answers**: a known `BAD` is visible at
-> once, and so is a strong player. It takes one click in the character window,
-> survives restarts and is collected on the Players page.
-> [What it looks like →](#marks-bad-and-110)
-
-> [!TIP]
-> **The whole application queue at once.** The game shows applications one at a
-> time — here they are all in arrival order, with the time left to answer and
-> the applicant's server read out of the record itself. Accepting and declining
-> still happens in the game.
-> [Screenshot and details →](#applications-the-whole-queue-at-once)
-
-> [!NOTE]
-> **Gear score, combat power and class from Kisk — before you press Accept.**
-> The profile is fetched automatically by the applicant's server, cached for 24
-> hours and refreshed by itself when it goes stale. What Kisk did not say stays
-> empty.
-> [A player's card →](#your-character-party-and-applications--by-themselves)
 
 ## What it does
 
